@@ -5,7 +5,7 @@ Backend for the **Libropolis** project, an application developed with **Spring B
 ---
 
 ## 🚀 Technologies Used
-- ☕ Java 17
+- ☕ Java 23
 - 🌱 Spring Boot
 - 🛠️ Spring Data JPA
 - 🐘 MySQL
@@ -29,20 +29,6 @@ Backend for the **Libropolis** project, an application developed with **Spring B
 - Stock validation during purchase.
 - Balance validation for the user.
 - Purchase history by user.
-
----
-
-## 🔌 Main Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/usuario/{usuarioId}` | Get user information |
-| PUT | `/usuario/actualizar/{usuarioId}` | Update user information |
-| POST | `/usuario/recargar/{usuarioId}` | Top-up user balance |
-| GET | `/libro/titulo/{titulo}` | Search book by title |
-| GET | `/libro/isbn/{isbn}` | Search book by ISBN |
-| POST | `/compra` | Register a purchase |
-| GET | `/compra/usuario/{usuarioId}` | Get purchases by user |
 
 ---
 
