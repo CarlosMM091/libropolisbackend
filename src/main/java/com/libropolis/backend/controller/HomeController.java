@@ -10,7 +10,7 @@ public class HomeController {
 
     @GetMapping
     public String home() {
-        return "Backend de Libropolis corriendo correctamente";
+        return "Libropolis Backend is correct";
     }
 }
 
